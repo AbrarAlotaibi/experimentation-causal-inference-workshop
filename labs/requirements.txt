@@ -1,0 +1,12 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+statsmodels>=0.14
+scikit-learn>=1.3
+networkx>=3.0
+jupyter
+# optional (heavier causal stack; every lab runs without them)
+# dowhy
+# econml
+# linearmodels
