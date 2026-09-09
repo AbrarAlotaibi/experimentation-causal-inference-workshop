@@ -1,17 +1,21 @@
+# Experimentation, A/B Testing and Causal Inference
 
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-  <head>
-    <title>503 Backend.max_conn reached</title>
-  </head>
-  <body>
-    <h1>Error 503 Backend.max_conn reached</h1>
-    <p>Backend.max_conn reached</p>
-    <h3>Error 54113</h3>
-    <p>Details: cache-fjr990034-FJR 1788951514 3961667503</p>
-    <hr>
-    <p>Varnish cache server</p>
-  </body>
-</html>
+التجارب واختبارات A/B والاستدلال السببي
+
+| | |
+|---|---|
+| Provider | SDAIA Academy |
+| Program code | SDA-DSC-213 |
+| Duration | 4 days, 20 hours (5 hours per day) |
+| Dates | Sunday 6 to Wednesday 9 September 2026 |
+| Instructor | Abrar Alotaibi |
+| Tools | Python, pandas, statsmodels, scipy, Jupyter |
+
+## What the program covers
+
+The program trains participants to answer "what actually causes the effect" with data, through experiments and causal inference. Participants design randomized experiments with correct randomization units and guardrail metrics; compute statistical power, sample sizes and minimum detectable effects; analyze experiment results with correct variance estimation and multiple-testing control while avoiding pitfalls such as peeking; apply quasi-experimental methods (matching, difference-in-differences, instrumental variables) when experiments are not possible; and assess causal claims from observational data using causal graphs (DAGs). The program ends with an experiment design and analysis project.
+
+
+## Capstone Project
+
+Provided By: https://github.com/SDAIAAcademy
