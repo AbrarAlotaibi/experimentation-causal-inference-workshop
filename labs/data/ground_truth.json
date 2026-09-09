@@ -1,0 +1,40 @@
+{
+  "injaz_users.csv": {
+    "treatment": "enrolled",
+    "outcome": "completed",
+    "true_ATT_prob_scale": 0.04280382332314827,
+    "direct_effect_only": 0.025,
+    "true_ATT_realised": 0.044545849630595394,
+    "naive_difference": 0.12083140712859186,
+    "confounders": [
+      "age",
+      "digital_literacy",
+      "prior_completions",
+      "region_code"
+    ],
+    "note": "support_calls is a mediator (enrolled -> support_calls -> completed). Adjusting for it recovers only the direct effect (~0.025), not the total effect."
+  },
+  "injaz_experiment_results.csv": {
+    "true_lift_completion": 0.02,
+    "guardrails_true_effect": {
+      "time_to_complete": 0,
+      "support_ticket": 0,
+      "upload_error": -0.005
+    },
+    "assignment": "sha256 hash of 'injaz-uploader-2026q2:user_id', 50/50"
+  },
+  "injaz_regions_panel.csv": {
+    "true_DiD_effect": 0.032,
+    "design": "3 waves (months 10, 14, 18) + 2 never-treated regions",
+    "note": "Common rising trend makes naive before/after overstate the effect."
+  },
+  "injaz_autofill_ab.csv": {
+    "true_lift_completion": 0.014,
+    "guardrail_true_effect": {
+      "form_error": 0.012,
+      "time_to_complete": "about -8%",
+      "support_ticket": 0
+    },
+    "intended_lesson": "Lift is real but below a 1.5pp ship threshold AND the form_error guardrail regresses -> HOLD."
+  }
+}
